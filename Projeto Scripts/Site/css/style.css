@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    
+}
+
+header, body{
+    background-color: white;
+}
+@media screen and (max-width: 540px){
+
+    .visual{
+        opacity: 0;
+        transition: 1s;
+    }
+    .visual img{
+        opacity: 0;
+        transition: 1s;
+   
+    }
+    .logo{
+        margin: 5% 6%;
+        
+    }
+    
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .links{  
+        text-align: right;
+        margin-top: -30%;
+        margin-right: 5;
+        display: flex;
+}
+    .menu a{
+      font-size: 68%;
+      
+}}  
+
+head, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo{
+    margin: 2% 8%;
+}
+
+.menu{
+    text-align: right;
+    margin-left: 35%;
+    width: 50%;
+    font-size: 100%;
+    margin-top: -5%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.visual{
+    width: 30%;
+    background-color: #017143;
+    border-radius: 75%; 
+    height: 70%;
+    margin-left: 73%;
+    margin-top: 60%;
+    position: relative;
+    display: flex;
+    transition: 1s;
+    
+}
+
+.visual img{
+   margin-right: 75%;
+   margin-top: -15%;
+}
+
+
+.galeria{
+    margin-top: -85%;
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+.galeria img{
+    width: 98% ;
+    border-radius: 5%;
+    height: 80% ;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    
+}
+
+.bullets-section{
+    text-align: center;
+    
+}
+
+.bullet{
+    background-color: #017143;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 40%;
+    margin-left: 1%;
+    cursor: pointer; 
+    overflow:visible;   
+}
+
+.initial-order{
+    background-color: #333;
+}
+
+.corpo{
+    margin-top: 0%
+}
+
+.corpo h1{
+    padding-top: 0%;
+    margin-left: 12%;
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.corpo span{
+    color: #017143;
+    font-style: bolder;
+    
+}
+
+.corpo p{
+    font-size: 30px;
+    margin-left: 12%;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 11%;
+}
+
+.button button{
+    margin-left: 12%;
+    margin-top: 2%;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #017143;   
+    color: white;
+    font-size: 14px;
+}
+
+section.socialmedia{
+    position: relative;
+    text-align: left;
+    right: 10%;
+    top: 40% 
+
+}    
+
+section.socialmedia img{    
+    padding: 15%;  
+     
+}
+
+.faixa{
+    background-color: #67e2b1;
+    width: 100%;
+    height: 8%;
+    margin-top: 13%;
+    text-align: center;
+}
+
+.vendas{
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.container-vendas{
+   float: left;
+   width: 33.3%;
+   text-align: center;
+}
+
+.text-vendas p{
+    text-align: center;
+    display: inline-block;
+    width: 33.3%;
+ }
+
+ .container-vendas img{
+    width: 34%;
+    align-items: center;
+ }
